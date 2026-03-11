@@ -1,6 +1,7 @@
 {
   "name": "@cle-does-things/no",
-  "version": "0.1.0",
+  "description": "The 'no' command is the same as the 'yes' command, but it prints 'n'.",
+  "version": "0.1.1",
   "module": "src/index.ts",
   "type": "module",
   "bin": {
@@ -14,6 +15,21 @@
     "build": "bun build ./src/index.ts --outdir ./dist --target node",
     "prepublishOnly": "bun run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstraBert/no-ts.git"
+  },
+  "keywords": [
+    "cli",
+    "yes",
+    "linux"
+  ],
+  "author": "Clelia Astra Bertelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AstraBert/no-ts/issues"
+  },
+  "homepage": "https://github.com/AstraBert/no-ts#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/bun": "latest",
