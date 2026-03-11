@@ -13,7 +13,10 @@
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "build": "bun build ./src/index.ts --outdir ./dist --target node",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "bun run build && changeset publish"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,7 @@
   },
   "homepage": "https://github.com/AstraBert/no-ts#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "@eslint/js": "^10.0.1",
     "@types/bun": "latest",
     "eslint": "^10.0.3",
