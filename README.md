@@ -14,5 +14,5 @@ With brew:
 
 ```bash
 brew tap AstraBert/no-ts
-brew install no-ts
+brew install cle-does-things-no
 ```
