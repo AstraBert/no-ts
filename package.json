@@ -1,7 +1,7 @@
 {
   "name": "@cle-does-things/no",
   "description": "The 'no' command is the same as the 'yes' command, but it prints 'n'.",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "module": "src/index.ts",
   "type": "module",
   "bin": {
