@@ -1,5 +1,11 @@
 # @cle-does-things/no
 
+## 0.2.1
+
+### Patch Changes
+
+- 0e53ba7: Minor tweaks to the version message
+
 ## 0.2.0
 
 ### Minor Changes
