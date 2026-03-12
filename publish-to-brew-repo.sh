@@ -8,6 +8,9 @@ cd homebrew-no-ts
 mkdir -p Formula/
 echo "Generating HomeBrew Formula"
 noob @cle-does-things/no > Formula/cle-does-things-no.rb
+echo "Configuring GitHub user"
+git config user.email "github-actions[bot]@users.noreply.github.com"
+git config user.name "github-actions[bot]"
 echo "Pushing to GitHub"
 git add .
 git commit -m "Automated HomeBrew Release for no-ts"
