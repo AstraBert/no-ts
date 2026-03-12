@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const VERSION = "0.1.3";
+const VERSION = "0.2.0";
 
 function main(): void {
   const firstArg = process.argv.at(2);
