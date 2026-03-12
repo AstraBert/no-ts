@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const VERSION = "0.2.0";
+const VERSION = "0.2.1";
 
 function main(): void {
   const firstArg = process.argv.at(2);
@@ -10,7 +10,7 @@ function main(): void {
     );
     return;
   } else if (firstArg && (firstArg === "--version" || firstArg == "-v")) {
-    console.log(`no - v${VERSION}`);
+    console.log(`no – be repetitively negative: v${VERSION}`);
     return;
   }
   while (true) {
