@@ -3,7 +3,7 @@
 echo "Installing homebrew-npm-noob tool"
 uv tool install --upgrade homebrew-npm-noob
 echo "Setting up repository locally"
-git clone https://github.com/AstraBert/homebrew-no-ts
+git clone https://x-access-token:${GITHUB_TOKEN}@github.com/AstraBert/homebrew-no-ts
 cd homebrew-no-ts
 mkdir -p Formula/
 echo "Generating HomeBrew Formula"
